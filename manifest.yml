@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: mm-learning
+  host: mm-learning
+  disk_quota: 1024M
+  services:
+  - mm-learning-cloudantNoSQLDB
+  - mm-learning-iotf-service
